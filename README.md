@@ -2,7 +2,7 @@
   스마트 시니어 케어 프로토타입<br/>
 
 # 순서
-  구현할 기능 Issue작성
+  구현할 기능 Issue작성<br/>
   Issue번호로 'feature/{Issue번호}'로 new branch 생성 및 작업<br/>
   기능 구현이 다 끝났고 오류가 없음을 확인하면 Commit & push<br/>
   PR 보낼때 base-develop으로 변경<br/>
