@@ -3,7 +3,7 @@
 
 # 순서
   구현할 기능 Issue작성
-  Issue번호로 'feature/{Issue번호}'로 new branch 생성 및 작업
+  Issue번호로 'feature/{Issue번호}'로 new branch 생성 및 작업\n
   기능 구현이 다 끝났고 오류가 없음을 확인하면 Commit & push
   PR 보낼때 base-develop으로 변경
   코드에 오류 없다고 생각하면 Merge
