@@ -24,8 +24,8 @@ git checkout -b feature/7-home-ui  # 새 feature 브랜치 생성 및 이동
 ```
 
 ### 3️⃣ 기능 구현 및 커밋  
-- [커밋타입/#이슈번호] - 커밋내용  
-- `[feat/#7] - 홈 화면 UI 레이아웃 추가`
+- `[커밋타입/#이슈번호] - 커밋내용`
+- [feat/#7] - 홈 화면 UI 레이아웃 추가
 
 ### 4️⃣ 원격 브랜치 Push
 - 'git push origin feature/7-home-ui'
