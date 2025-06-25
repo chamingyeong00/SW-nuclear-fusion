@@ -4,15 +4,15 @@
 
 ## 기술 스택
 
-- Frontend: (React, Vue 등)
-- Backend: (Node.js, Django 등)
-- DB: (MySQL, MongoDB 등)
+- Frontend: React
+- Backend: Spring boot
+- DB: MySQL
 
 ## 브랜치 전략
 
 - master: 최종 제출 브랜치
 - develop: 통합 개발 브랜치
-- feature: 기능 개발 브랜치
+- feat: 기능 개발 브랜치
 
 ## 협업 가이드
 
