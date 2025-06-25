@@ -1,20 +1,19 @@
 # SW-nuclear-fusion
-  스마트 시니어 케어 프로토타입<br/>
 
-# 순서
-  구현할 기능 Issue작성<br/>
-  Issue번호로 'feature/{Issue번호}'로 new branch 생성 및 작업<br/>
-  기능 구현이 다 끝났고 오류가 없음을 확인하면 Commit & push<br/>
-  PR 보낼때 base-develop으로 변경<br/>
-  코드에 오류 없다고 생각하면 Merge<br/>
-  checkout 명령어 사용하여 develop으로 이동<br/>
-  팀원들의 코드가 반영된 develop branch의 코드를 pull<br/>
-  구현이 끝난 'feature/{Issue번호}' 삭제<br/>
+스마트 시니어 케어 프로토타입 프로젝트
 
+## 기술 스택
 
-프로젝트 제출 시, develop branch에 오류가 없고 정상적으로 코드가 실행된다면<br/>
-devlop branch를 master branch로 merge<br/>
-master branch 파일을 제출
+- Frontend: (React, Vue 등)
+- Backend: (Node.js, Django 등)
+- DB: (MySQL, MongoDB 등)
 
+## 브랜치 전략
 
+- master: 최종 제출 브랜치
+- develop: 통합 개발 브랜치
+- feature: 기능 개발 브랜치
 
+## 협업 가이드
+
+상세한 협업 규칙은 [CONTRIBUTING.md](./CONTRIBUTING.md)를 참고하세요.
