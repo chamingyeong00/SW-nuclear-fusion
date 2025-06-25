@@ -29,8 +29,7 @@ git checkout -b feature/7-home-ui  # 새 feature 브랜치 생성 및 이동
 
 ### 4️⃣ 원격 브랜치 Push
 ```bash
-git push origin feature/7-home-ui
-git push origin feature/{이슈번호}-{기능요약}
+git push origin feature/7-home-ui 	#feature/{이슈번호}-{기능요약}
 ```
 
 ### 5️⃣ 코드 확인 후 Merge  
