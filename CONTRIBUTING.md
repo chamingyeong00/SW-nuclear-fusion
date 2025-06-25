@@ -54,28 +54,20 @@ git push origin feature/7-home-ui 	#feature/{이슈번호}-{기능요약}
 
 | 타입 | 설명 |
 |---|---|
-| feat | 기능 추가 |
+| feat | 신규 기능 개발 |
 | fix | 버그 수정 |
-| docs | 문서 수정 |
-| refactor | 리팩토링 |
-| style | 스타일 수정 |
-| test | 테스트 작성 |
-| chore | 설정 수정 |
-| build | 빌드 수정 |
-| ci | CI/CD 설정 |
+| refactor | 코드 리팩토링 |
+| chore | 유지보수 / 설정 작업 |
+| style | 스타일링 수정 (UI, 마크업 등) |
 
 ## 이슈 라벨 가이드
 
 | 라벨 | 설명 |
 |---|---|
-| Feature | 새로운 기능 |
-| BugFix | 버그 수정 |
-| Html&css | 마크업/스타일 |
-| CrossBrowsing | 브라우저 호환성 |
-| Accessibility | 접근성 |
-| API | API 문제 |
-| Docs | 문서 작업 |
-| Deploy | 배포 문제 |
-| Setting | 개발 환경 |
-| Refactor | 리팩토링 |
-| Test | 테스트 관련 |
+| Type : Feature | 신규 기능 개발 |
+| Type : Bug | 버그 수정 |
+| Type : Refactor | 코드 리팩토링 |
+| Type : Chore | 유지보수 (설정, 환경, 패키지 등) |
+| For : API | 서버 API 작업 |
+| For : Entity/DB | 데이터베이스 작업 |
+| For : Html&css | 스타일링 (마크업 & CSS) |
