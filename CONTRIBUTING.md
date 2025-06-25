@@ -9,15 +9,13 @@
 
 ## 작업 흐름
 
-### 1️⃣ 구현할 기능 Issue 작성
+### 1️⃣ 이슈 작성
 - GitHub Issues에 작업할 이슈 생성  
 - 생성된 이슈 번호 확인 (예: #7)
 
----
-
-### 2️⃣ `feature/{이슈번호}-{기능요약}` 브랜치 생성  
-
+### 2️⃣ 브랜치 생성
 **항상 develop 최신을 기준으로 작업 시작**
+`feature/{이슈번호}-{기능요약}` 브랜치 생성  
 
 ```bash
 git checkout develop       # develop 브랜치로 이동
@@ -26,20 +24,19 @@ git checkout -b feature/7-home-ui  # 새 feature 브랜치 생성 및 이동
 ```
 
 ### 3️⃣ 기능 구현 및 커밋  
-`[커밋타입/#이슈번호] - 커밋내용`
+`[커밋타입/#이슈번호] - 커밋내용`<\br>
 `[feat/#7] - 홈 화면 UI 레이아웃 추가`
 
-### 4️⃣ Pull Request → `base: develop`  
-git push origin feature/7-home-ui
-
+### 4️⃣ 원격 브랜치 Push
+'git push origin feature/7-home-ui'
 
 ### 5️⃣ 코드 확인 후 Merge  
-	•	GitHub로 이동 → Pull Request 생성
-	•	PR 작성 시:
-  	•	base: develop
-  	•	compare: feature/7-home-ui
-	•	PR 생성 후 팀원이 코드 리뷰 진행
-	•	리뷰 완료 후 Merge 버튼 클릭하여 develop 브랜치에 병합
+	• GitHub로 이동 → Pull Request 생성
+	• PR 작성 시:
+		• base: develop
+		• compare: feature/7-home-ui
+	• PR 생성 후 팀원이 코드 리뷰 진행
+	• 리뷰 완료 후 Merge 버튼 클릭하여 develop 브랜치에 병합
 
 ### 6️⃣ 최종 제출 시 `develop` → `master` merge
   git checkout master
