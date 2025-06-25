@@ -15,7 +15,7 @@
 
 ### 2️⃣ 브랜치 생성
 - **항상 develop 최신을 기준으로 작업 시작**  
-- `feature/{이슈번호}-{기능요약}` 브랜치 생성  
+- `feat/{이슈번호}-{기능요약}` 브랜치 생성  
 
 ```bash
 git checkout develop       # develop 브랜치로 이동
