@@ -37,8 +37,7 @@ git push origin feature/7-home-ui 	#feature/{이슈번호}-{기능요약}
 - PR 작성 시:  
 	• base: develop  
 	• compare: feature/7-home-ui
-- PR 생성 후 팀원이 코드 리뷰 진행
-- 리뷰 완료 후 Merge 버튼 클릭하여 develop 브랜치에 병합
+- Merge 버튼 클릭하여 develop 브랜치에 병합
 
 ### 6️⃣ 최종 제출 시 `develop` → `master` merge
 ```bash
