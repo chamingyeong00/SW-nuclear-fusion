@@ -16,4 +16,4 @@
 
 ## 협업 가이드
 
-상세한 협업 규칙은 [CONTRIBUTING.md](./CONTRIBUTING.md)를 참고하세요.
+상세한 협업 규칙은 [CONTRIBUTING.md](./CONTRIBUTING.md)를 참고
